@@ -160,6 +160,9 @@ if __name__ == "__main__":
     
     plt.plot(train_losses, label='train')
     plt.plot(test_losses, label='test')
+    plt.title('Plot of training and test losses over epochs')
+    plt.xlabel("Epochs", 'r')
+    plt.ylabel("Epoch Loss",'b')
     plt.legend()      
        
     
